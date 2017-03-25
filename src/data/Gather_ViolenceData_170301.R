@@ -1,5 +1,5 @@
 #  ####################################################################### 
-#       File-Name:      Gather_ConfrontationsData_170301.R
+#       File-Name:      Gather_ViolenceData_170301.R
 #       Version:        R 3.3.2
 #       Date:           Mar 01, 2017
 #       Author:         MM
@@ -35,7 +35,7 @@ library(tidyr)          # tools for tidy datasets
 library(magrittr)       # ceci n'est pas un pipe
 library(lubridate)      # easier manipulation of time objects
 library(stringr)        # easier manipulation of strings
-library(reshape2)       # a much more flexible reshaping for our purpose here
+library(reshape2)       # a much more flexible reshaping for our purposes here
 
 
 # ::::::: SOME USEFUL DEFINITIONS :::::::::::::::::::::::::::::::::::::::::::::  
@@ -46,12 +46,12 @@ library(reshape2)       # a much more flexible reshaping for our purpose here
 # define additional paths for files you will use. In each case, determine
 # appropriate additions to the path
 
-inFileName1  <- "data//raw//A-E.xlsx"                           # raw data on confrontations
+inFileName1  <- "data//raw//A-E//A-E.xlsx"                           # raw data on confrontations
 inFileName2  <- "data//external//ARCH535.csv"                   # name equivalence tables
-inFileName3  <- "data//raw//tabla9-A-E.xlsx"                    # id of federal forces involved in confrontation event
+inFileName3  <- "data//raw//A-E//Tablas Externas//tabla9-A-E.xlsx"                    # id of federal forces involved in confrontation event
 inFileName4  <- "data//external//LookupAuthorityNames.csv"      # name of federal forces involved
-inFileName5  <- "data//raw//A-A.xlsx"                           # raw data on agressions
-inFileName6  <- "data//raw//tabla9-A-A.xlsx"                    # id of federal forces involved in agression event
+inFileName5  <- "data//raw//A-A//A-A.xlsx"                           # raw data on agressions
+inFileName6  <- "data//raw//A-A//Tablas Externas//tabla9-A-A.xlsx"                    # id of federal forces involved in agression event
 
 outFileName1 <- "data//processed/AllViolenceData_170301.csv" # output file name
 
@@ -200,7 +200,7 @@ dataMunger <- function(baseEventData, StateNames, ForcesTable, SourceString){
         # renaming variables to intelligible English  
         rename(day.orig = DIA, 
                month.orig = MES, 
-               year.orig = AÑO, 
+               year.orig = A?O, 
                state_code = ESTADO,
                mun_code = Municipio, 
                state = NOM_ENT, 
