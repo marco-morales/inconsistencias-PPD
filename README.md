@@ -18,11 +18,12 @@ En t&eacute;rminos m&aacute;s generales, el repositorio contiene:
 * las [bases de datos](data/raw) como fueron descargadas del sitio del PPD
 * la [base de datos transformada](data/processed) para su exploraci&oacute;n y an&aacute;lisis 
 * el c&oacute;digo para [transformar los datos](src/data)
+* el c&oacute;digo para [generar los descriptivos](src/analysis)
 * el c&oacute;digo para [generar los gr&aacute;ficos](src/visualizations) 
 
 Adicionalmente, el repositiorio contiene breves presentaciones tem&aacute;ticas con fines did&aacute;cticos basadas en los datos del PPD:
 
-* [&iquest;qu&eacute; puede inferirise realmente sobre "letalidad" usando la base de datos del PPD?]()
+* [&iquest;qu&eacute; puede inferirise realmente sobre "letalidad" usando la base de datos del PPD?](reports/documents/InferenciasBaseCIDEPPD.pdf)
 
 ## Para replicar
 
@@ -31,7 +32,7 @@ Adicionalmente, el repositiorio contiene breves presentaciones tem&aacute;ticas 
 		* para validar los c&oacute;mputos y transformaciones
 		* generar an&aacute;lisis propios transformando el c&oacute;digo
 	* utilizar s&oacute;lo la base de datos procesada para 
-2. [Clonar el repositorio](https://help.github.com/articles/cloning-a-repository/) y [suscribirse a &eacute;l]() para recibir notificaciones de toda actualizaci&oacute;n. 
+2. [Clonar el repositorio](https://help.github.com/articles/cloning-a-repository/) y [suscribirse a &eacute;l]() para recibir notificaciones de cada actualizaci&oacute;n. 
 
 ## Licencia de uso
 
