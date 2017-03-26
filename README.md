@@ -10,8 +10,7 @@ El prop&oacute;sito de las indagaciones documentadas en este repositiorio no es 
 
 El repositorio contiene los materiales necesarios para replicar gr&aacute;ficos y an&aacute;lisis publicados en:
 
-* el art&iacute;culo ["Letalidad militar: lo que el CIDE quiso decir"]() publicado en la [Revista R](http://www.reforma.com/libre/acceso/acceso.htm?urlredirect=/revistar/) de [Reforma](http://www.reforma.com/) el domingo 26 de marzo de 2017. Los gr&aacute;ficos pueden descargarse directamente [aqu&iacute;](reports/graphs/RevistaR)
-
+* el art&iacute;culo ["Letalidad: lo que el CIDE quiso decir"](http://www.reforma.com/aplicacioneslibre/articulo/default.aspx?id=1073890&v=3&md5=dcd12dd720d7bea8e4f743b78045fa28&ta=0dfdbac11765226904c16cb9ad1b2efe&pc=102#browseTwitter) publicado en la [Revista R](http://www.reforma.com/libre/acceso/acceso.htm?urlredirect=/revistar/) de [Reforma](http://www.reforma.com/) el domingo 26 de marzo de 2017. 
 
 En t&eacute;rminos m&aacute;s generales, el repositorio contiene:
 
@@ -20,10 +19,11 @@ En t&eacute;rminos m&aacute;s generales, el repositorio contiene:
 * el c&oacute;digo para [transformar los datos](src/data)
 * el c&oacute;digo para [generar los descriptivos](src/analysis)
 * el c&oacute;digo para [generar los gr&aacute;ficos](src/visualizations) 
+* los [gr&aacute;ficos](reports/graphs/RevistaR) que ilustran los puntos del art&iacute;culo
 
 Adicionalmente, el repositiorio contiene breves presentaciones tem&aacute;ticas con fines did&aacute;cticos basadas en los datos del PPD:
 
-* [&iquest;qu&eacute; puede inferirise realmente sobre "letalidad" usando la base de datos del PPD?](reports/documents/InferenciasBaseCIDEPPD.pdf)
+* [&iquest;qu&eacute; puede inferirise realmente sobre "letalidad" de las fuerzas armadas usando la base de datos del PPD?](reports/documents/InferenciasBaseCIDEPPD.pdf)
 
 ## Para replicar
 
