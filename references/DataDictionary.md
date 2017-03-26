@@ -1,7 +1,7 @@
 
 # Data Dictionary
 
-The dataset [`AllViolenceData_170216.csv`]() cointans information on **Confrontations** and **Aggressions** between armed forces and criminal organizations between December 2006 and November 2011 in Mexico. The data is a transformation of datasets released by the [Drug Policy Program (PPD)](http://www.politicadedrogas.org/) and is preserved at the  event level. 
+The dataset [`AllViolenceData_170301.csv`]() cointans information on **Confrontations** and **Aggressions** between armed forces and criminal organizations between December 2006 and November 2011 in Mexico. The data is a transformation of datasets released by the [Drug Policy Program (PPD)](http://www.politicadedrogas.org/) and is preserved at the  event level. 
 
 ## Definitions
 
@@ -43,7 +43,7 @@ The dataset was manipulated using the script [`Gather_ViolenceData_170301.R`]()
 
 ## Variables 
 
-The manipulated dataset [`AllViolenceData_170216.csv`]() contains the following variables:
+The manipulated dataset [`AllViolenceData_170301.csv`]() contains the following variables:
 
 Variable |  description 
 --- | --- 
