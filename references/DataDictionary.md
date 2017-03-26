@@ -3,7 +3,7 @@
 
 The dataset [`AllViolenceData_170216.csv`]() cointans information on **Confrontations** and **Aggressions** between armed forces and criminal organizations between December 2006 and November 2011 in Mexico. The data is a transformation of datasets released by the [Drug Policy Program (PPD)](http://www.politicadedrogas.org/) and is preserved at the  event level. 
 
-## Definiciones
+## Definitions
 
 The original government definition - to which PDD subscribes - defines **Confrontations** as sporadic and isolated acts of violence, crimes or other affrays carried out by organized crime involving firearmas and military-grade equipment. In particular, a **Confrontation** must involve 
 
@@ -96,14 +96,6 @@ Variable |  description
 `army.lethality` | event-level lethality index for Army    
 `navy.lethality` | event-level lethality index for Navy
 `federal.police.lethality` | event-level lethality index for Federal Police 
-`organized.crime.lethality.diff` | event-level difference between dead and wounded for organized crime 
-`army.lethality.diff` | event-level difference between dead and wounded for Army
-`navy.lethality.diff` | event-level difference between dead and wounded for Navy 
-`federal.police.lethality.diff` | event-level difference between dead and wounded for Federal Police 
-`organized.crime.NewIndex` | event-level new dead to wounded index for organized crime 
-`army.NewIndex` | event-level new dead to wounded index for Army 
-`navy.NewIndex` | event-level new dead to wounded index for Navy    
-`federal.police.NewIndex` | event-level new dead to wounded index for Federal Police 
 `perfect.lethality` | binay indicator for events of perfect lethality    
 `category` | categorical variable indicating type of event {perfect.lethality, no.dead.wounded, dead.wounded, just.wounded}          
 `global.id` | a unique ID for every event in the full data set   
@@ -192,28 +184,12 @@ Variable |  description
  3rd Qu.:0.0000   3rd Qu.:0.00000                      3rd Qu.:Inf               3rd Qu.:0.143  
  Max.   :1.0000   Max.   :1.00000                      Max.   :Inf               Max.   :  Inf  
                                                        NA's   :3090              NA's   :5011   
- navy.lethality federal.police.lethality organized.crime.lethality.diff army.lethality.diff
- Min.   :  0    Min.   :  0              Min.   :-18.0000               Min.   :-8.000     
- 1st Qu.:  0    1st Qu.:  0              1st Qu.:  0.0000               1st Qu.: 0.000     
- Median :  0    Median :  0              Median :  0.0000               Median : 0.000     
- Mean   :Inf    Mean   :Inf              Mean   :  0.5693               Mean   :-0.104     
- 3rd Qu.:Inf    3rd Qu.:  1              3rd Qu.:  1.0000               3rd Qu.: 0.000     
- Max.   :Inf    Max.   :Inf              Max.   : 28.0000               Max.   : 3.000     
- NA's   :5356   NA's   :5183                                                               
- navy.lethality.diff federal.police.lethality.diff organized.crime.NewIndex army.NewIndex   
- Min.   :-7.00000    Min.   :-14.00000             Min.   :-1.0000          Min.   :-1.000  
- 1st Qu.: 0.00000    1st Qu.:  0.00000             1st Qu.: 0.0000          1st Qu.:-1.000  
- Median : 0.00000    Median :  0.00000             Median : 1.0000          Median :-1.000  
- Mean   :-0.00871    Mean   : -0.05671             Mean   : 0.4636          Mean   :-0.687  
- 3rd Qu.: 0.00000    3rd Qu.:  0.00000             3rd Qu.: 1.0000          3rd Qu.:-0.750  
- Max.   : 3.00000    Max.   :  5.00000             Max.   : 1.0000          Max.   : 1.000  
-                                                   NA's   :3090             NA's   :5011    
- navy.NewIndex    federal.police.NewIndex perfect.lethality   category           global.id   
- Min.   :-1.000   Min.   :-1.000          Min.   :0.0000    Length:5396        Min.   :   1  
- 1st Qu.:-1.000   1st Qu.:-1.000          1st Qu.:0.0000    Class :character   1st Qu.:1350  
- Median :-1.000   Median :-1.000          Median :0.0000    Mode  :character   Median :2698  
- Mean   :-0.365   Mean   :-0.503          Mean   :0.2745                       Mean   :2698  
- 3rd Qu.: 1.000   3rd Qu.: 0.000          3rd Qu.:1.0000                       3rd Qu.:4047  
- Max.   : 1.000   Max.   : 1.000          Max.   :1.0000                       Max.   :5396  
- NA's   :5356     NA's   :5183                                                               
-```
+ navy.lethality federal.police.lethality perfect.lethality              category      global.id   
+ Min.   :  0    Min.   :  0              Min.   :0.0000    no.dead.wounded  :3090   Min.   :   1  
+ 1st Qu.:  0    1st Qu.:  0              1st Qu.:0.0000    perfect.lethality:1481   1st Qu.:1350  
+ Median :  0    Median :  0              Median :0.0000    dead.wounded     : 414   Median :2698  
+ Mean   :Inf    Mean   :Inf              Mean   :0.2745    just.wounded     : 411   Mean   :2698  
+ 3rd Qu.:Inf    3rd Qu.:  1              3rd Qu.:1.0000                             3rd Qu.:4047  
+ Max.   :Inf    Max.   :Inf              Max.   :1.0000                             Max.   :5396  
+ NA's   :5356   NA's   :5183                                                                      
+> ```
