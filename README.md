@@ -10,7 +10,7 @@ El prop&oacute;sito de las indagaciones documentadas en este repositiorio no es 
 
 El repositorio contiene los materiales necesarios para replicar gr&aacute;ficos y an&aacute;lisis publicados en:
 
-* el art&iacute;culo ["Letalidad: lo que el CIDE quiso decir"](http://www.reforma.com/aplicacioneslibre/articulo/default.aspx?id=1073890&v=3&md5=dcd12dd720d7bea8e4f743b78045fa28&ta=0dfdbac11765226904c16cb9ad1b2efe&pc=102#browseTwitter) publicado en la [Revista R](http://www.reforma.com/libre/acceso/acceso.htm?urlredirect=/revistar/) de [Reforma](http://www.reforma.com/) el domingo 26 de marzo de 2017. 
+* el art&iacute;culo ["Letalidad: lo que el CIDE quiso decir"](articles/RevistaR.pdf) publicado en la [Revista R](http://www.reforma.com/libre/acceso/acceso.htm?urlredirect=/revistar/) de [Reforma](http://www.reforma.com/) el domingo 26 de marzo de 2017. 
 
 En t&eacute;rminos m&aacute;s generales, el repositorio contiene:
 
