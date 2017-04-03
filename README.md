@@ -24,6 +24,8 @@ En t&eacute;rminos m&aacute;s generales, el repositorio contiene:
 Adicionalmente, el repositiorio contiene breves presentaciones tem&aacute;ticas con fines did&aacute;cticos basadas en los datos del PPD:
 
 * [&iquest;qu&eacute; puede inferirise realmente sobre "letalidad" de las fuerzas armadas usando la base de datos del PPD?](reports/documents/InferenciasBaseCIDEPPD.pdf)
+* [&iquest;Por qu&eacute; el "&iacute;ndice de letalidad" no mide lo que creemos?](reports/documents/IndiceDeLetalidad.pdf)
+
 
 ## Para replicar
 
