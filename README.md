@@ -25,7 +25,7 @@ En t&eacute;rminos m&aacute;s generales, el repositorio contiene:
 
 Adicionalmente, el repositiorio contiene breves presentaciones tem&aacute;ticas con fines did&aacute;cticos basadas en los datos del PPD:
 
-* [&iquest;qu&eacute; puede inferirise realmente sobre "letalidad" de las fuerzas armadas usando la base de datos del PPD?](reports/documents/InferenciasBaseCIDEPPD.pdf)
+* [&iquest;qu&eacute; puede inferirise realmente sobre "letalidad" de las fuerzas armadas usando la Base CIDE-PPD?](reports/documents/InferenciasBaseCIDEPPD.pdf)
 * [&iquest;Por qu&eacute; el "&iacute;ndice de letalidad" no mide lo que creemos?](reports/documents/IndiceDeLetalidad.pdf)
 
 
@@ -35,7 +35,7 @@ Adicionalmente, el repositiorio contiene breves presentaciones tem&aacute;ticas 
 	* utilizar el c&oacute;digo para replicar cada paso de la transformaci&oacute;n y el an&aacute;lisis
 		* para validar los c&oacute;mputos y transformaciones
 		* generar an&aacute;lisis propios transformando el c&oacute;digo
-	* utilizar s&oacute;lo la base de datos procesada para 
+	* utilizar s&oacute;lo la base de datos procesada para generar an&acute;lisis
 2. [Clonar el repositorio](https://help.github.com/articles/cloning-a-repository/) y [suscribirse a &eacute;l]() para recibir notificaciones de cada actualizaci&oacute;n. 
 
 ## Licencia de uso
