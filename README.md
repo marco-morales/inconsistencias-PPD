@@ -35,7 +35,7 @@ Adicionalmente, el repositiorio contiene breves presentaciones tem&aacute;ticas 
 	* utilizar el c&oacute;digo para replicar cada paso de la transformaci&oacute;n y el an&aacute;lisis
 		* para validar los c&oacute;mputos y transformaciones
 		* generar an&aacute;lisis propios transformando el c&oacute;digo
-	* utilizar s&oacute;lo la base de datos procesada para generar an&acute;lisis
+	* utilizar s&oacute;lo la base de datos procesada para generar an&aacute;lisis propios
 2. [Clonar el repositorio](https://help.github.com/articles/cloning-a-repository/) y [suscribirse a &eacute;l]() para recibir notificaciones de cada actualizaci&oacute;n. 
 
 ## Licencia de uso
