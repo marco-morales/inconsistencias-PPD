@@ -11,7 +11,7 @@ El prop&oacute;sito de las indagaciones documentadas en este repositiorio no es 
 El repositorio contiene los materiales necesarios para replicar gr&aacute;ficos y an&aacute;lisis publicados en:
 
 * el art&iacute;culo ["Letalidad: lo que el CIDE quiso decir"](articles/RevistaR.pdf) publicado en la [Revista R](http://www.reforma.com/libre/acceso/acceso.htm?urlredirect=/revistar/) de [Reforma](http://www.reforma.com/) el domingo 26 de marzo de 2017. 
-* el art&iacute;culo ["&iquest; Qu&eacute; mide realmente el _&Iacute;ndice de letalidad_"](http://seguridad.nexos.com.mx/?p=91) publicado en el [Blog de Seguridad](http://seguridad.nexos.com.mx) de [Nexos](http://www.nexos.com.mx/) el lunes 3 de abril de 2017. 
+* el art&iacute;culo ["&iquest;Qu&eacute; mide realmente el _&Iacute;ndice de letalidad_ "](http://seguridad.nexos.com.mx/?p=91) publicado en el [Blog de Seguridad](http://seguridad.nexos.com.mx) de [Nexos](http://www.nexos.com.mx/) el lunes 3 de abril de 2017. 
 
 
 En t&eacute;rminos m&aacute;s generales, el repositorio contiene:
